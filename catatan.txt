@@ -1,0 +1,10 @@
+- php artisan help make:model
+    command diatas digunakan untuk melihat apa saja yang bisa artisann lakukan pada model
+
+- php artisan make:model Model/Product -a
+    command untuk memebuat model beserta factory dll..
+- php artisan make:model Model/Review -a
+
+-   php artisan route:list 
+    untuk melihat route pada aplikasi api
+    
