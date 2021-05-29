@@ -17,4 +17,8 @@
    2. relasi Review->Product
     - App\Model\Review::find(1);
     - App\Model\Review::find(1)->Product;
-    
+
+- php artisan make:resource Product/ProductCollection
+    - http://localhost:8000/api/products
+
+-php artisan make:resource ProductResource
