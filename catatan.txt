@@ -7,4 +7,5 @@
 
 -   php artisan route:list 
     untuk melihat route pada aplikasi api
-    
+- menggunakan faker pada factory
+    https://github.com/fzaninotto/Faker
