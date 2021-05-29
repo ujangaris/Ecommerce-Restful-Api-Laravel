@@ -9,3 +9,12 @@
     untuk melihat route pada aplikasi api
 - menggunakan faker pada factory
     https://github.com/fzaninotto/Faker
+
+- php artisan tinker
+   1. relasi Product->Review
+    - App\Model\Product::find(1);
+    - App\Model\Product::find(1)->reviews;
+   2. relasi Review->Product
+    - App\Model\Review::find(1);
+    - App\Model\Review::find(1)->Product;
+    
